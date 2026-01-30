@@ -1,17 +1,18 @@
 /*
 	Facebits.h
 
-	A lightweight library to manipulate bitmasks
+	Lightweight bitmask manipulation library
 
-    Copyright (c) 2026 Marcos Rubiano
-    
-	SPDX-License-Identifier: MIT
+    Copyright (C) 2026 Marcos Rubiano
+	email:	markusianito@proton.me
+
+	This program is licensed under MIT license. See LICENSE file.
 */
 
 #ifndef FACEBITS
 #define FACEBITS
 
-#include <stdint.h>
+#include <inttypes.h>
 
 template<typename T> T maskShift(T mask);
 template<typename T> T maskWidth(T mask);

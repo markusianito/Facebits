@@ -1,12 +1,15 @@
 /*
-	facebits.cpp
+	Facebits.cpp
 
 	Implements Facebits library functions.
 
-	SPDX-License-Identifier: MIT
+    Copyright (C) 2026 Marcos Rubiano
+	email:	markusianito@proton.me
+
+	This program is licensed under MIT license. See LICENSE file.
 */
 
-#include <facebits.h>
+#include "Facebits.h"
 
 
 template<typename T> T maskShift(T mask)

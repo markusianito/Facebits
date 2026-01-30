@@ -5,7 +5,7 @@
 */
 
 #include <Arduino.h>
-#include <facebits.h>
+#include "Facebits.h"
 
 constexpr uint8_t BUTTON_MASK = 0b00000001;
 uint8_t state = 0;
