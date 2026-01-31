@@ -43,9 +43,9 @@ template<typename T, typename U> void writeData(T& info, T mask, U data)
 	uint8_t width = maskWidth(mask);
 	T maxVal = (T(1) << width) - T(1);
 
-	T info = static_cast<T>(data) & maxVal;
+	T result = static_cast<T>(data) & maxVal;
 
-	info = (info & ~mask) | (info << shift);
+	info = (info & ~mask) | (result << shift);
 }
 template<typename T, typename U> T writeDataPreview(T info, T mask, U data)
 {
