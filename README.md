@@ -48,4 +48,5 @@ uint8_t mode = readData(info, MODE_MASK); // 4
     T writeDataPreview(info, mask, data)
 ```
 
-# Licensed under MIT License.
+
+#### Licensed under BSD-2-clause
